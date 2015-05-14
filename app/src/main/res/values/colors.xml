@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="content_text">#ff141414</color>
+    <color name="reading_mode">#fff3efe6</color>
+    <color name="normal_mode">#ffffffff</color>
+    <color name="app_bg">#fff9f9f9</color>
+
+    <color name="club_grey">#fff9f9f9</color>
+    <color name="unable_grey">#fff1f1f1</color>
+
+    <color name="app_main">#ff03a9f4</color>
+    <color name="dark_blue">#ff0288d1</color>
+    <color name="light_blue">#ff4fc3f7</color>
+    <color name="yellow">#FFBB33</color>
+    <!--used for drawerlist-->
+    <color name="saved_yellow">#ffffe200</color>
+    <color name="activities_red">#ffe83828</color>
+    <color name="setting_green">#ff22ac38</color>
+    <color name="drawer_selected_color">#fffbfbfb</color>
+
+    <color name="dark_yellow">#FF8800</color>
+    <color name="red">#FF4444</color>
+    <color name="dark_red">#CC0000</color>
+    <color name="violet">#AA66CC</color>
+    <color name="dark_violet">#9966CC</color>
+    <color name="blue">#33B5E5</color>
+    <color name="pink">#E91E63</color>
+
+
+    <color name="white">#ffffffff</color>
+    <color name="setting">#009688</color>
+
+    <color name="clubseed_bg">#FFF1D4</color>
+    <color name="clubseed_ic">#FB5058</color>
+
+    <color name="black_semi_transparent">#B2000000</color>
+</resources>

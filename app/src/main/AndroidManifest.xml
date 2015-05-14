@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="cn.edu.ustc.appseed.clubseed" >
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/clubseed"
+        android:label="@string/app_name"
+        android:theme="@style/MainTheme" >
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:noHistory="true"
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="tencent1104440501"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar"
+            android:configChanges="orientation|keyboardHidden|screenSize"/>
+        <activity
+            android:name=".activity.EventContentActivity"
+            android:label="活动"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.StarContentActivity"
+            android:label=""
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".activity.StartActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name=".activity.AuthorActivity"
+            android:label="@string/title_activity_author"
+            android:screenOrientation="portrait" >
+        </activity>
+
+        <activity android:name=".activity.ClubInfoActivity"
+            android:parentActivityName=".activity.MainActivity"
+            android:label="ClubInfoActivity"
+            android:screenOrientation="portrait">
+
+         </activity>
+        <activity android:name=".activity.GraphOnlyActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:label="图片详情"
+            android:screenOrientation="portrait"/>
+    </application>
+
+</manifest>

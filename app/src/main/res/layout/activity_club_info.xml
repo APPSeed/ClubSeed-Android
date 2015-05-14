@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+    <include layout="@layout/toolbar"/>
+    <ScrollView
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_height="match_parent">
+        
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/clubLogo"
+            android:layout_marginBottom="10dp"
+            android:visibility="gone"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:text="主要负责人"
+            android:id="@+id/masterInfo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="19sp"
+            android:textColor="@color/content_text"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textViewMasterInfo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:text="联系方式"
+            android:id="@+id/connectInfo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:textSize="19sp"
+            android:textColor="@color/content_text"
+            android:lineSpacingMultiplier="1.2"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/textViewConnInfo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:textSize="20sp"
+            android:layout_marginBottom="5dp"
+            android:text="发布者简介"
+            android:id="@+id/clubInfo"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:layout_marginBottom="10dp"
+            android:textSize="19sp"
+            android:textColor="@color/content_text"
+            android:lineSpacingMultiplier="1.2"
+            android:paddingBottom="60dp"
+
+            android:id="@+id/textViewClubInfo"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

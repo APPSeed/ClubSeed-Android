@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">ClubSeed</string>
+    <string name="action_search">Search</string>
+    <string name="action_star">收藏</string>
+    <string name="action_share">分享</string>
+    <string name="action_calendar">添加到日历</string>
+    <string name="action_focus">关注</string>
+    <string name="title_activity_settings">设置</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="pref_clear_cache">PREF_CLEAR_CACHE</string>
+    <string name="pref_reading_mode">PREF_READING_MODE</string>
+    <string name="pref_author">PREF_AUTHOR</string>
+    <string name="pref_feedback">PREF_FEEDBACK</string>
+    <string name="pref_share">PREF_SHARE</string>
+    <string name="title_activity_main2">Main2Activity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_author">作者</string>
+    <string name="officialWebsite">官方网站:www.iappseed.com\n</string>
+    <string name="joinUs">加入我们:ustcappseed@icloud.com\n</string>
+    <string name="QQnumber">新浪微博:USTC_AppSeed社\n</string>
+
+    <string name="android_author"><b>Android Design &amp; Coding</b>\n沈奥林 1143316523@qq.com\n沈国栋 gdshen95@gmail.com\n张恒若 zhr2012@mail.ustc.edu.cn\n</string>
+    <string name="database_author"><b>Background Service</b>\n陈炜铿 cwk32@icloud.com\n</string>
+    <string name="icon_author"><b>Icon Design</b>\nAnthony\n</string>
+
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="connect_fail">无法连接网络</string>
+    <string name="refreshing">刷新中...</string>
+
+    <string name="app_id">1104440501</string>
+    <!--AlertDialog-->
+    <string name="alert_yes">马上！</string>
+    <string name="alert_no">日后再说</string>
+</resources>
